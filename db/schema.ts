@@ -11,7 +11,7 @@ export const members = sqliteTable("members", {
   imageUrl: text("imageUrl"),
   role: text("role"),
   score: integer("score"),
-  xUrl: integer("xUrl"),
-  linkedInUrl: integer("linkedInUrl"),
-  gitHubUrl: integer("gitHubUrl"),
+  xUrl: text("xUrl"),
+  linkedInUrl: text("linkedInUrl"),
+  gitHubUrl: text("gitHubUrl"),
 });
