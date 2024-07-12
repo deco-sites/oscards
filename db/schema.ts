@@ -4,11 +4,11 @@
 
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
-export const profiles = sqliteTable("profiles", {
+export const members = sqliteTable("members", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   name: text("name"),
   description: text("description"),
-  image: text("image"),
+  imageUrl: text("imageUrl"),
   role: text("role"),
   score: integer("score"),
   xUrl: integer("xUrl"),
