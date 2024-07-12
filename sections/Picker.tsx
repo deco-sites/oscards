@@ -1,10 +1,11 @@
-interface Props {
-  /**
-  * @description The description of name.
-  */
-  name?: string;
-}
+import Grid from "site/sections/Grid.tsx";
+import DropArea from "site/sections/DropArea.tsx";
 
-export default function Section({ name = "Capy" }: Props) {
-  return <div>Hello {name}</div>
+export default function Picker() {
+  return (
+    <>
+      <Grid></Grid>
+      <DropArea></DropArea>
+    </>
+  );
 }
