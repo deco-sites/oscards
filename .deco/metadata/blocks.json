@@ -78,5 +78,6 @@
   "/.deco/blocks/Preview%20site%2Fsections%2FItWorks.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/ItWorks.tsx"
-  }
+  },
+  "/.deco/blocks/deco-records.json": null
 }
