@@ -79,5 +79,9 @@
     "blockType": "sections",
     "__resolveType": "site/sections/ItWorks.tsx"
   },
-  "/.deco/blocks/deco-records.json": null
+  "/.deco/blocks/deco-records.json": null,
+  "/.deco/blocks/loadMembers.json": {
+    "blockType": "loaders",
+    "__resolveType": "records/loaders/drizzle.ts"
+  }
 }

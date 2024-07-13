@@ -8,7 +8,7 @@ export default function Picker({ members }: PickerProps) {
   return (
     <div class="h-80">
       {members && members.map((m) => {
-        <p class="text-black">{m.name}</p>;
+        return <p class="text-black">{m.name}</p>;
       })}
     </div>
   );
