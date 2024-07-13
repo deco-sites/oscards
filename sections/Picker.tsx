@@ -1,11 +1,15 @@
-import Grid from "site/sections/Grid.tsx";
-import DropArea from "site/sections/DropArea.tsx";
+import { Member } from "site/loaders/Members.tsx";
 
-export default function Picker() {
+interface PickerProps {
+  members?: Member[];
+}
+
+export default function Picker({ members }: PickerProps) {
   return (
     <>
-      <Grid></Grid>
-      <DropArea></DropArea>
+      {members && members.map((m) => {
+        <p>{m.name}</p>;
+      })}
     </>
   );
 }

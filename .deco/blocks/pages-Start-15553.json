@@ -6,10 +6,10 @@
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "Preview /sections/Picker.tsx",
-      "members": [
-        {}
-      ]
+      "__resolveType": "site/sections/Picker.tsx",
+      "members": {
+        "__resolveType": "Preview /loaders/Members.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -1,15 +1,10 @@
-import { Member } from "site/loaders/Members.tsx";
-
-interface GridProps {
-  members?: Member[];
+interface Props {
+  /**
+   * @description The description of name.
+   */
+  name?: string;
 }
 
-export default function Grid({ members }: GridProps) {
-  return (
-    <>
-      {members && members.map((m) => {
-        return <p>{m.name}</p>;
-      })}
-    </>
-  );
+export default function Grid({ name = "Capy" }: Props) {
+  return <div>Hello {name}</div>;
 }
