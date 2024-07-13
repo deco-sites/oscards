@@ -6,10 +6,10 @@ interface PickerProps {
 
 export default function Picker({ members }: PickerProps) {
   return (
-    <>
+    <div class="h-80">
       {members && members.map((m) => {
-        <p>{m.name}</p>;
+        <p class="text-black">{m.name}</p>;
       })}
-    </>
+    </div>
   );
 }

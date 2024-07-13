@@ -3,13 +3,13 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Footer"
-    },
-    {
       "__resolveType": "site/sections/Picker.tsx",
       "members": {
-        "__resolveType": "Preview /loaders/Members.tsx"
+        "__resolveType": "site/loaders/Members.tsx"
       }
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

@@ -14,5 +14,6 @@ export default async function getMembers(
 
   // Select all members from the database
   const data = await drizzle.select().from(members);
+  console.log(data);
   return data;
 }
